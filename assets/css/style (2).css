@@ -451,7 +451,7 @@ main::before {
   /* background-color: rebeccapurple; */
   display: flex;
   align-items: end;
-  margin-bottom: 85px;
+  margin-bottom: 100px;
 }
 
 .imageGroup div p {
