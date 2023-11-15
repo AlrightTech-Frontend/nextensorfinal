@@ -148,7 +148,7 @@ font-size: 27px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-padding-top: 10px;
+padding-top: 5px;
 }
 
 .r-form>h2 span {
@@ -225,10 +225,10 @@ padding-top: 10px;
 }
 
 .loginBtnlog{
-    border-radius: 30px !important;
+    border-radius: 15px !important;
 }
 .createBtnlog{
-    border-radius: 30px !important;
+    border-radius: 15px !important;
 }
 .forgetpassmahasjdh {
     width: 100% !important;
@@ -273,7 +273,7 @@ text-decoration-line: underline;
 .l-panel {
     /* border: 2px solid rgba(0, 0, 0, 0.452); */
     width: 100%;
-    margin-right: 50px;
+    /* margin-right: 50px; */
 
 }
 
@@ -499,6 +499,10 @@ footer h2 a {
     .hero {
         flex-direction: column;
     }
+    .panelHeader{
+        margin: 15px 0px;
+    }
+    
 }
 
 @media(max-width:1120px) {
@@ -569,7 +573,7 @@ footer h2 a {
     .hero {
         margin: 0px 10px !important;
     }
-    .header, .hero, footer {
+    .header, footer {
         padding: 15px;
     }
     .boxbtn {
@@ -610,7 +614,7 @@ footer h2 a {
         font-size: .8rem;
     }
     .img3 img{
-        height: 200px;
+        height: 100%;
         width: 116%;
     }
     .r-form>h2 {

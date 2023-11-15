@@ -77,6 +77,7 @@ main::before{
     margin: 1.2em 0 2.2em;
     /* height: 72vh !important; */
         margin-block: 2.9em;
+        background-color: white !important;
 }
 .hero > h2{
     color: #000;
@@ -106,12 +107,17 @@ main::before{
     /* color: red !important; */
 }
 
+.r-panel{
+    box-shadow: rgba(0, 0, 0, 0.103) 0px 2px 10px;
+
+}
 .l-panel{
     padding: 1.5em 2em;
+    box-shadow: rgba(0, 0, 0, 0.103) 0px 2px 10px;
 }
 .l-panel > h2{
     color: #28867E;
-    font-size: 1.1rem;
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: 1.5625rem; /* 96.154% */
@@ -119,7 +125,9 @@ main::before{
 .l-panel h2 span{
     color: #000;
     font-weight: 700;
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
+    font-size: 20px;
+    
 }
 .l-panel > h2 > .description{
     font-weight: 500;
@@ -127,7 +135,7 @@ main::before{
 .l-panel > .l-line{
     height: 1px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.07);
+    background-color: rgba(204, 20, 20, 0.07);
     margin-block: 1em;
 }
 
