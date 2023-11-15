@@ -420,7 +420,7 @@ main::before {
   /* background-color: rebeccapurple; */
   display: flex;
   align-items: end;
-  margin-bottom: 75px;
+  margin-bottom: 85px;
 }
 
 .imageGroup div p {
