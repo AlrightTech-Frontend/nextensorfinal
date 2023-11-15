@@ -373,6 +373,7 @@ font-weight: 600;
 }
 .formlogin p{
     padding-inline: 20px;
+    text-align: start;
 }
 .imageGroup div p {
     text-align: center;
