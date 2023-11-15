@@ -149,6 +149,8 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 padding-top: 10px;
+text-align: start;
+padding-left: 16px;
 }
 
 .r-form>h2 span {
@@ -225,10 +227,10 @@ padding-top: 10px;
 }
 
 .loginBtnlog{
-    border-radius: 30px !important;
+    border-radius: 15px !important;
 }
 .createBtnlog{
-    border-radius: 30px !important;
+    border-radius: 15px !important;
 }
 .forgetpassmahasjdh {
     width: 100% !important;
@@ -543,6 +545,14 @@ footer h2 a {
 }
 }
 @media (max-width:768px){
+
+
+    .formlogin p{
+        padding-inline: 9px;
+    }
+    .r-form>h2 {
+    padding-left: 9px;
+    }
     .imageGroup{
         flex-direction: column;
         align-items: center;
@@ -570,7 +580,7 @@ footer h2 a {
         margin: 0px 10px !important;
     }
     .header, .hero, footer {
-        padding: 15px;
+        padding: 0px;
     }
     .boxbtn {
         justify-content: center;
@@ -610,7 +620,7 @@ footer h2 a {
         font-size: .8rem;
     }
     .img3 img{
-        height: 200px;
+        height: 119px;
         width: 116%;
     }
     .r-form>h2 {

@@ -444,14 +444,14 @@ main::before {
 
 .img1 img,
 .img3 img {
-  height: 118px;
+  height: 122px;
 }
 
 .img2arrow {
   /* background-color: rebeccapurple; */
   display: flex;
   align-items: end;
-  margin-bottom: 75px;
+  margin-bottom: 109px;
 }
 
 .imageGroup div p {
