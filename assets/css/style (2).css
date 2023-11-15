@@ -20,7 +20,7 @@
 .left {
   flex: 1;
   /* width: 50%; */
-  padding-inline: 3rem;
+  padding-right: 3rem;
 }
 
 .right {
@@ -223,7 +223,7 @@ main::before {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-inline: 4.5em;
+  padding-inline: 2em;
   padding-block-start: 1.2em;
 }
 
@@ -391,8 +391,10 @@ main::before {
 
 .topHeading h2 {
   font-weight: 700 !important;
-  font-size: 28px !important;
+  font-size: 25px !important;
   /* letter-spacing: 1px; */
+
+  font-family: Montserrat;
   white-space: nowrap;
 }
 
@@ -409,6 +411,7 @@ main::before {
   flex-wrap: wrap;
   gap: 5px;
   margin-top: 8px;
+  width: 97%;
 }
 
 .boxbtn p {
@@ -436,12 +439,12 @@ main::before {
 
 .imageGroup {
   display: flex;
-  width: 80%;
+  width: 100%;
 }
 
 .img1 img,
 .img3 img {
-  height: 120px;
+  height: 118px;
 }
 
 .img2arrow {
@@ -466,24 +469,45 @@ a {
   justify-content: space-between;
   gap: 10px;
   margin-top: 35px;
+  width: 97%;
 }
 
 .loginBtn {
   background-color: #28867E;
-  padding: 12px 35px;
+  padding: 12px 0px;
   width: 100%;
   text-align: center;
   border-radius: 10px;
   white-space: nowrap;
+
+  color: #FFF;
+
+ 
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+ 
 }
 
 .createBtn {
   background-color: #34A9A0;
-  padding: 12px 35px;
+  padding: 12px 0px;
   width: 100%;
   text-align: center;
   border-radius: 10px;
   white-space: nowrap;
+
+
+
+  color: #FFF;
+
+ 
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 
 }
 
@@ -610,12 +634,25 @@ footer h2 a {
   }
 
   .imageGroup {
-    width: 85.0%;
+    width: 100%;
     margin: auto;
   }
 }
 
 @media (max-width:768px) {
+
+  .topHeading h2{
+     white-space: wrap;
+  }
+  .main{
+padding-inline: 0px;
+  }
+  .hImage img{
+    width: 100% !important;
+  }
+  .hImage2 img{
+    width: 100% !important;
+  }
   .imageGroup {
     flex-direction: column;
     align-items: center;
@@ -718,11 +755,13 @@ footer h2 a {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
 .crd {
-  width: 23%;
+  width: 22%;
+  position: relative;
+  height: 300px;
 }
 
 .heading {
@@ -736,9 +775,13 @@ footer h2 a {
   text-wrap: nowrap;
   /* 363.158% */
 }
+.hImage2{
+  display: flex;
+  justify-content: center;
 
+}
 .hImage2 img {
-  width: 80%;
+  width: 85%;
 }
 
 .paBtn {
@@ -765,7 +808,7 @@ footer h2 a {
 .sub {
   color: #414141;
   font-family: Montserrat;
-  font-size: 13px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -774,7 +817,9 @@ footer h2 a {
 }
 
 .pr {
-  margin-top: 1rem;
+ 
+  position: absolute;
+  bottom: 0px;
 }
 
 .puPrice {
@@ -814,17 +859,45 @@ footer h2 a {
 }
 
 .hImage img {
-  width: 100%;
+  width: 134px;
+  
 }
 
 @media(max-width:1200px) {
+
+  .footerr{
+    position: static !important;
+     height: 100% !important;
+     margin-top: 20px;
+    
+  }
+.right {
+  margin-top: 4.7rem;
+}
+  .fText2{
+    margin-top: 0px !important;
+  }
   .cards {
     flex-wrap: wrap;
     align-items: center;
   }
 
+
+.pr {
+ 
+  position: static;
+  bottom: 0px;
+}
+.crd {
+  width: 22%;
+  position: relative;
+  height: 100%;
+}
+
+
   .crd {
     width: 100%;
+
   }
 
   .hImage img {
@@ -886,12 +959,21 @@ footer h2 a {
 
 .footerr {
   padding: 0.5rem 0px;
-  padding-left: 25%;
-  padding-right: 25%;
+  width: 100%;
+   
   background: #ECF4F5;
   text-align: center;
   position: fixed;
   bottom: 0;
+
+
+  background: #ECF4F5;
+    width: 100%;
+    padding-inline: 4.5em;
+    height: 65px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .foText {
